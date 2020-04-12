@@ -1,0 +1,5 @@
+export { default as DepManage } from './DepManage.vue'
+export { default as EcManage } from './EcManage.vue'
+export { default as JobLevelManage } from './JobLevelManage.vue'
+export { default as PosManage } from './PosManage.vue'
+export { default as PermissionManage } from './PermissionManage.vue'
