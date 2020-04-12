@@ -35,7 +35,9 @@ axios.interceptors.response.use(success => {
     return;
 })
 
-const base = '/api';
+// const base = '/api'; //生产环境，在nginx配置中要用到
+
+const base = '/';  //开发环境
 
 export const postKeyValueRequest = (url,params) => {
     return axios({
