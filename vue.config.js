@@ -15,8 +15,8 @@ proxyObj['/'] = {
 }
 
 module.exports = {
-    // publicPath: '././',   //index.html中js等文件以 ./js/开头
-    publicPath: './',   //index.html中js等文件以 js/ 开头
+    publicPath: '././',   //index.html中js等文件以 ./js/开头
+    // publicPath: './',   //index.html中js等文件以 js/ 开头
     // 输出文件目录
     outputDir: 'dist',
     devServer: {
